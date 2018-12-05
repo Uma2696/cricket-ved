@@ -33,18 +33,13 @@ public class Utils {
     }
 
 
-    public static String playerRole(){
+    public static String playerRole() {
         rand = random.nextInt(2);
-        if(rand==0){
+        if (rand == 0) {
             return "Bowler";
-        }
-        else {
+        } else {
             return "Batsman";
         }
-
-
     }
-
-
 }
 
