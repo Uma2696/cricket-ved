@@ -1,5 +1,3 @@
 public interface Game {
-     default void startGame() {
-
-     }
+     public void startGame();
 }

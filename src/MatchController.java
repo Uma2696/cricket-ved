@@ -1,8 +1,11 @@
+import model.Team;
+
 import java.util.Scanner;
 
 
 
-class MatchController{
+class MatchController {
+
 
     String t1 ;
     String t2 ;

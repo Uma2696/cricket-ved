@@ -26,6 +26,7 @@ public class Team {
     }
 
     public String getEachPlayer(int noofwickets) {
+
         return Player.get(noofwickets);
     }
 }
